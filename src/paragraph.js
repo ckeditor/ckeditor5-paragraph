@@ -8,8 +8,10 @@
  */
 
 import ParagraphCommand from './paragraphcommand';
-
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
+import log from '@ckeditor/ckeditor5-utils/src/log';
+
+log.warn( 'custom-error: Allow me to display the warning log.' );
 
 /**
  * The paragraph feature for the editor.
